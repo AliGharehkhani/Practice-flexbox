@@ -1,7 +1,3 @@
-img {
-    height: 2rem;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -43,3 +39,36 @@ nav ul {
     background: rgb(167, 223, 206);
     border: none;
 }
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro img{
+    width: 100%;
+    height: 100%;
+}
+
+.intro-img {
+    flex: 1 1 10rem;
+    background: lightblue;
+    
+}
+
+.intro-text{
+    flex: 1 1 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text h2{
+    padding: 2rem;
+}
+
+.intro-text p {
+    padding: 1rem;
+}
+
